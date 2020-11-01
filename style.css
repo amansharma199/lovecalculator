@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(LoveBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    width: 370px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    top: 210px;
+    margin: auto;
+    
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    color: white ;
+}
+
+.calculator{
+    text-align: center;
+    margin: 20px;
+}
+
+.calculator span{
+    margin: 5px;
+}
+
+.calculator input{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.click{
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.click button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(5, 168, 5);
+    outline: none;
+    border-radius: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.result{
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    
+}
+
+.result input{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.atlast{
+    width: 100%;
+    height: 30px;
+    background-color: turquoise;
+    color: rgb(0,0, 0);
+    text-align: center;
+}
